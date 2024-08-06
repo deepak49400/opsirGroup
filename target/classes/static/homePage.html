@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Result</title>
+</head>
+<body>
+   <h1 th:text="${message}">Submission Result</h1>
+    <h1>Submitted Data</h1>
+    <p>Name: <span th:text="${user.fullName}"></span></p>
+    <p>Email: <span th:text="${user.email}"></span></p>
+    <p>Mobile: <span th:text="${user.mobile}"></span></p>
+    <p>Comments: <span th:text="${user.comment}"></span></p>
+</body>
+</html>
